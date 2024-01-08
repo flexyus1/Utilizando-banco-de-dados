@@ -1,1 +1,2 @@
-Primeiro projeto com intenção de aprendizado a integração de banco de dados a aplicação, feito para ajudar a contribuir na minha formação em fullstack
+Projeto feito com integração a banco de dados, utilizando nodeJs, express, mysql, handlebars
+Para simular uma aplicação com injeção de dados em um banco de dados relacional

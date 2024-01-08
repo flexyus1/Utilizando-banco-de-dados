@@ -126,6 +126,22 @@ app.post('/books/remove/:id', (req, res) => {
   })
 })
 
+//Podemos evitar as linhas de codigo a seguir, com um db para se conectar ao banco de dados, criando
+//um novo repositorio chamadd db, e utilizando o seguinte codigo 
+
+//com esse codigo n é necessario conectar com o conn no codigo do index.js
+// const mysql = require('mysql')
+
+// const pool = mysql.createPool({
+//   connectionLimit: 10,
+//   host:'localhost',
+//   user:'root',
+//   password:'',
+//   database: 'nodemysql'
+// })
+
+// module.exports = pool
+
 //conecta a databse do banco de dados
 const conn = mysql.createConnection({
   host: 'localhost',
